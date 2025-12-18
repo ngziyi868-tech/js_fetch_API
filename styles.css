@@ -3,3 +3,12 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.header {
+    background-color: #d1c8c8;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rbga(0,0,0,0,0.1);
+    margin-bottom: 20px;
+}
