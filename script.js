@@ -32,7 +32,7 @@ fetch(URL)
       img.loading = "lazy";
       // Include a business location
       let address = document.createElement("p");
-      address.classname = "address";
+      address.className = "address";
       address.textContent = business[i].address;
 
       // Include a business Description
@@ -44,7 +44,5 @@ fetch(URL)
       card.appendChild(img);
       card.appendChild(address);
       card.appendChild(description);
-
-      cards.appendChild(card);
     }
   });
