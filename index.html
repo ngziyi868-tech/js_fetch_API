@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My API Test</title>
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Directory</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h2>Businesses to visit in Tooele</h2>
+      <p>You are more than welcome to browse our collection</p>
+    </header>
 
-<body>
-<!--Revise document and check console tab make sure data is there-->
-<script>
-    const URL= "https://iskarr.github.io/austindonovan.github.io/api/business.json";
-
-    fetch(URL)
-    .then((response) => response.json())
-    .then((jsObject) => {
-        console.log(jsObject);
-    });
-
-</script>
-</body>
-
+    <main id="cards-holder">
+      <div class="cards"></div>
+    </main>
+    <script src="script.js"></script>
+  </body>
 </html>
